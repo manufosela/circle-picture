@@ -1,31 +1,7 @@
 {
   "name": "circle-picture",
-  "version": "1.0.0",
   "description": "## Demo [Codepen Demo](http://codepen.io/manufosela/pen/RoRBrV)",
-  "main": "circle-picture.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/manufosela/cvitaede-circlepicture.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/manufosela/cvitaede-circlepicture/issues"
-  },
-  "homepage": "https://github.com/manufosela/cvitaede-circlepicture#readme"
-}
-{
-  "name": "circle-picture",
-  "description": "Lit-Element webcomponent to draw a horizontal navigation list",
-  "version": "2.0.0",
-  "description": "## Demo [Codepen Demo](http://codepen.io/manufosela/pen/RoRBrV)",
+  "version": "2.0.1",
   "main": "circle-picture.js",
   "repository": {
     "type": "git",
@@ -45,4 +21,3 @@
     "lit-element": "^2.1.0"
   }
 }
-
