@@ -1,31 +1,29 @@
 import { LitElement, html, css } from '/node_modules/lit-element/lit-element.js';
 
-class CirclePicture extends Polymer.Element {
+/**
+ * `circle-picture`
+ * Circle Picture
+ *
+ * @customElement
+ * @polymer
+ * @litElement
+ * @demo demo/index.html
+ */
+
+ class CirclePicture extends LitElement {
   static get is() { return 'circle-picture'; }
 
   static get properties() {
     return {
-      picture: {
-        type: String,
-        value: '',
-      },
-      size: {
-        type: Number,
-        value: 200
-      },
-      title: {
-        type: String,
-        value: 'FAKE TITLE'
-      },
-      subtitle: {
-        type: String,
-        value: 'Fake Subtitle'
-      }
+      picture: { type: String },
+      size: { type: Number },
+      title: { type: String },
+      subtitle: { type: String }
     };
   }
 
   static get styles(){
-    css`
+    return css`
       :host {
         display: block;
       }
@@ -59,12 +57,16 @@ class CirclePicture extends Polymer.Element {
   
   constructor() {
     super();
+    this.picture = '';
+    this.size = 200;
+    this.title = 'FAKE TITLE';
+    this.subtitle = 'Fake Subtitle';
   }
 
   render() {
-    html`
+    return html`
       <div class="container">
-        <div class="imgcont" style$="width:${this.size}px; height:${this.size}px">
+        <div class="imgcont" style="width:${this.size}px; height:${this.size}px">
           <img src="${this.picture}" width="${this.size}" />
         </div>
         <h2>${this.title}</h2>
