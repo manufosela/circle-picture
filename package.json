@@ -1,7 +1,7 @@
 {
   "name": "@manufosela/circle-picture",
   "description": "## Demo [Codepen Demo](http://codepen.io/manufosela/pen/RoRBrV)",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "main": "circle-picture.js",
   "repository": {
     "type": "git",
